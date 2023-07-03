@@ -9,3 +9,14 @@
 .p-btn-animation{
     @apply absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-indigo-600 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease-in;
 }
+
+.p-title{
+    @apply text-center text-4xl font-semibold mt-32 mb-16 uppercase;
+}
+.p-paragraph{
+    @apply text-base lg:text-xl font-normal;
+}
+
+.skill-btn{
+    @apply bg-[#88F3CE] hover:bg-[#D9FBEF] text-black font-semibold py-2 px-4  rounded shadow mr-6 mb-6;
+}
