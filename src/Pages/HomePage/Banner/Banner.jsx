@@ -16,11 +16,11 @@ const Banner = () => {
         },
         enter: [
             { opacity: 1, height: 80, innerHeight: 80 },
-            { transform: 'perspective(600px) rotateX(270deg)', color: '#1D6373' },
+            { transform: 'perspective(600px) rotateX(270deg)', color: '#000' },
             { transform: 'perspective(600px) rotateX(0deg)' },
         ],
         leave: [{ color: '#294861' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
-        update: { color: '#034AA6' },
+        update: { color: '#000' },
     })
 
     const reset = useCallback(() => {

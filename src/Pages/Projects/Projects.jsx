@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div>
+        <div className='mb-6'>
             <h2 className='p-title'>Projects</h2>
 
             <div className='grid justify-center items-center gap-16'>

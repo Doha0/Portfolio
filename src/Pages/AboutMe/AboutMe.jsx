@@ -16,7 +16,8 @@ const AboutMe = () => {
                             Together we can make waves in the ever-evolving world of web development.
                         </p>
                     </div>
-                    <button className="font-semibold py-2 px-4 uppercase border border-black rounded shadow bg-white hover:bg-black text-black hover:text-white my-8">Contact me</button>
+                    <Link to="/contact"><button className="font-semibold py-2 px-4 uppercase border border-black rounded shadow bg-white hover:bg-black text-black hover:text-white my-8">Contact me</button>
+                    </Link>
                 </div>
 
                 <div>

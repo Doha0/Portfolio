@@ -1,16 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
 
     const handleDownload = () => {
-        const resumeUrl = 'https://drive.google.com/file/d/1PTP6ScZ9msFR4ZIoA3NtC2Dq_s5Ts40b/view';
-        window.open(resumeUrl, '_blank');
-    }
+        const filePath = "../../../../public/Resume.pdf";
+        const link = document.createElement("a");
+        link.href = filePath;
+        link.download = "Abu Jar Gifary Doha - Resume.pdf";
+        link.click();
+      };
     const navItems = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/">About Me</Link></li>
-        <li><Link to="/">Contact</Link></li>
+        <li><Link to="/about">About Me</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
         <Link onClick={handleDownload} className="rounded px-4 py-2 overflow-hidden relative group cursor-pointer border-2 border-slate-950 text-slate-950 hover:text-white">
             <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-slate-950 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
             <span className="relative text-slate-950 transition duration-300 group-hover:text-white ease">Get Resume</span>
