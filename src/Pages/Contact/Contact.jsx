@@ -33,7 +33,7 @@ const Contact = () => {
             <h2 className='p-title'>Contact</h2>
 
             <div className='grid justify-items-center p-10 rounded overflow-hidden shadow-lg'>
-                <form ref={form} onSubmit={sendEmail} className='w-80 grid grid-cols-1 justify-center gap-y-4'>
+                <form ref={form} onSubmit={sendEmail} className='w-64 lg:w-80 grid grid-cols-1 justify-center gap-y-4'>
                     <label className=''>Name</label>
                     <input  type="text" name="user_name" className="input input-bordered input-success w-full max-w-xs"  required />
                     <label>Email</label>
