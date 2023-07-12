@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const handleDownload = () => {
-        const filePath = "../../../../public/Resume.pdf";
+        const filePath = "/Resume.pdf";
         const link = document.createElement("a");
         link.href = filePath;
         link.download = "Abu Jar Gifary Doha - Resume.pdf";
