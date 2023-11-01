@@ -27,8 +27,8 @@ const Banner = () => {
         ref.current.forEach(clearTimeout)
         ref.current = []
         set([])
-        ref.current.push(setTimeout(() => set(['Hi, I am Doha' ]), 1000))
-        ref.current.push(setTimeout(() => set(['Hi, I am Doha', 'A Front-end Web Developer' ]), 5000))
+        ref.current.push(setTimeout(() => set(['Hi, I am Doha']), 1000))
+        ref.current.push(setTimeout(() => set(['Hi, I am Doha', 'A Front-end Web Developer']), 5000))
         ref.current.push(setTimeout(() => set(['Hi, I am Doha', 'A Front-end Web Developer', 'I love the process of turning ideas into reality']), 8000))
     }, [])
 
@@ -41,7 +41,7 @@ const Banner = () => {
         <div className='hero min-h-screen'
             style={{ backgroundImage: `url(${background})` }}>
             <div className="hero-content text-center ">
-                <div className='max-w-md lg:max-w-3xl text-center text-lg lg:text-4xl font-bold'>
+                <div className='max-w-md lg:max-w-3xl text-center text-lg lg:text-4xl font-bold heading-font'>
                     {transitions(({ innerHeight, ...rest }, item) => (
                         <animated.div style={rest} onClick={reset}>
                             <animated.div style={{ overflow: 'hidden', height: innerHeight }}>{item}</animated.div>
