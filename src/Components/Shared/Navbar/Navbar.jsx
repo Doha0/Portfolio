@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ThemeToggler from '../../../utilities/ThemeToggler/ThemeToggler';
 
 
 const Navbar = () => {
@@ -10,11 +11,12 @@ const Navbar = () => {
         link.href = filePath;
         link.download = "Abu Jar Gifary Doha - Resume.pdf";
         link.click();
-      };
+    };
     const navItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About Me</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        <li><ThemeToggler /></li>
         <Link onClick={handleDownload} className="rounded px-4 py-2 overflow-hidden relative group cursor-pointer border-2 border-slate-950 text-slate-950 hover:text-white">
             <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-slate-950 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
             <span className="relative text-slate-950 transition duration-300 group-hover:text-white ease">Get Resume</span>
@@ -22,7 +24,7 @@ const Navbar = () => {
     </>
 
     return (
-        <section className="navbar fixed z-10 bg-opacity-0 bg-white text-black">
+        <section className="navbar fixed z-10 bg-opacity-0 bg-white dark:bg-slate-400 text-black">
             <div className="navbar-start w-[100%] lg:w-1/2">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
