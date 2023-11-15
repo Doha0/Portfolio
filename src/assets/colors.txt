@@ -1,0 +1,17 @@
+Cyan color link: https://coolors.co/e6f8ff-ccf1ff-99e4ff-66d6ff-33c9ff-00bbff-0096cc-007099-004b66-002533
+Blue Color link: https://coolors.co/f8f8ff-dfdffa-2a2afd-0000ff-0101c9-0001ae-00018c-000166-00014d-000134
+
+
+Primary colors for Dark Mode:
+#E6F8FF  #CCF1FF  #99E4FF  #66D6FF  #33C9FF #00BFFF  #00BBFF  #0096CC  #007099  #004B66  #002533
+
+Primary Colors for white Mode:
+#f8f8ff  #dfdffa  #2a2afd  #0000ff  #0101c9  #0001ae  #00018c  #000166  #00014d  #000134
+
+
+
+Main White Color: #FAFAFA
+Main Black Color: #1c222B
+Auxiliary Color 1: #b2bbca
+Auxiliary Color 2: #f4f5f6
+Third color: #F20C36
