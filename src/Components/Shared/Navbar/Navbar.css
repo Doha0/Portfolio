@@ -1,0 +1,7 @@
+.navItems {
+    @apply text-black dark:text-white lg:mx-4 dark:hover:text-blue-400 hover:text-blue-500
+}
+
+.nav-title {
+    @apply hover:text-[#0001ae] hover:dark:text-[#00BBFF] font-bold text-xl
+}
